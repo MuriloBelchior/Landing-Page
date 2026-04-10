@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="curriculo.html">Currículo</a>
+    <a href="github.html">GitHub</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+<main>
+
+<h1>Contato</h1>
+
+<form>
+
+  <label>Nome completo:</label><br>
+  <input type="text" name="nome" value="Murilo de Oliveira Belchior" required><br><br>
+
+  <label>Telefone:</label><br>
+  <input type="tel" name="telefone" value="27 988910253"><br><br>
+
+  <label>E-mail:</label><br>
+  <input type="email" name="email" value="mbelchiorr@gmail.com"><br><br>
+
+  <label>Tipo de pessoa:</label><br>
+  <input type="radio" name="tipo" value="fisica"> Física
+  <input type="radio" name="tipo" value="juridica"> Jurídica<br><br>
+
+  <label>Melhor horário para contato:</label><br>
+  <select name="horario">
+    <option value="manha">Manhã</option>
+    <option value="tarde">Tarde</option>
+    <option value="noite">Noite</option>
+  </select><br><br>
+
+  <label>Tipo de serviço desejado:</label><br>
+  <select name="servico">
+    <option>Site simples</option>
+    <option>Site intermediário</option>
+    <option>Site avançado</option>
+  </select><br><br>
+
+  <label>Serviços adicionais:</label><br>
+  <input type="checkbox" name="manutencao"> Manutenção do site<br>
+  <input type="checkbox" name="hospedagem"> Hospedagem<br>
+  <input type="checkbox" name="suporte"> Suporte técnico<br><br>
+
+  <label>Descrição do que deseja:</label><br>
+  <textarea name="descricao" rows="5" cols="30"></textarea><br><br>
+
+  <input type="submit" value="Enviar">
+
+</form>
+
+</main>
+
+</body>
+</html>
